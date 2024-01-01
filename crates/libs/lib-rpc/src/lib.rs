@@ -3,6 +3,7 @@
 mod error;
 mod params;
 mod resources;
+mod response;
 mod rpcs;
 
 pub mod router;
