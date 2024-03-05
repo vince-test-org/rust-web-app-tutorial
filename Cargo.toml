@@ -28,6 +28,7 @@ uuid = {version = "1", features = ["v4","fast-rng",]}
 lazy-regex = "3"
 async-trait = "0.1"
 strum_macros = "0.25"
+sqlx = { version = "0.7.3", features = ["runtime-tokio-rustls", "postgres", "uuid", "time"] }
 
 
 [dev-dependencies]
